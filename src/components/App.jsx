@@ -6,7 +6,7 @@ const now =  new Date().toLocaleTimeString();
 
 const[time, setTime] = useState(now);
 
-function updateTime(){
+const updateTime = () => {
   const newTime = new Date().toLocaleTimeString();
   setTime(newTime);
 }
